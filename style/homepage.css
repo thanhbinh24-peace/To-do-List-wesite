@@ -93,7 +93,6 @@ li a:hover {
 }
 .button button a::before {
   font-family: 'FontAwesome';
-  content: "\f061";
   padding-right: 10px;
 }
 .button button a:hover {
@@ -114,7 +113,6 @@ li a:hover {
 }
 .benefit p::before {
   font-family: 'FontAwesome';
-  content: "\f00c";
   padding-right: 10px;
 }
 .benefit p:hover {
