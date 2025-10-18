@@ -92,7 +92,6 @@ li a:hover {
   background-color: yellow;
 }
 .button button a::before {
-  font-family: 'FontAwesome';
   padding-right: 10px;
 }
 .button button a:hover {
@@ -112,7 +111,6 @@ li a:hover {
   cursor: pointer;
 }
 .benefit p::before {
-  font-family: 'FontAwesome';
   padding-right: 10px;
 }
 .benefit p:hover {
