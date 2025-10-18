@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./list.css">
+    <link rel="icon" type="x-icon" href="./img/icon.jpeg">
+  </head>
+  <body>
+    <div class="container">
+      <div class="to-do-list">
+        <h3>To-Do List <img src="./img/todolist.jpeg" alt=""></h3>
+        <div class="box-content">
+          <input type="text" value="" id="type-text" placeholder="Type your tasks here...">
+          <button id="add" onclick="addTasks()">Add</button>
+          <button id="reset" onclick="resetInput()">Reset</button>
+        </div>
+        <ul id="list-contanier">
+          <!-- <li class="check">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li>  -->
+        </ul>
+      </div>
+    </div>
+    <script src="./list.js"></script>
+  </body>
+</html>
